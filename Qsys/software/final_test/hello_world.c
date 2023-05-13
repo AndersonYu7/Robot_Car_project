@@ -43,13 +43,13 @@ int main()
 		  if(sensor[0]){
 			  U_Turn_Left = 1;
 		  	  Go = 0;
-		  } else if(sensor[1]){
+		  } else if(sensor[1] && !sensor[2] && !sensor[3]){ //x100x
 			  Left = 1;
 			  Go = 0;
 		  } else if(sensor[4]){
 			  U_Turn_Right = 1;
 		  	  Go = 0;
-		  } else if(sensor[3]){
+		  } else if(!sensor[1] && !sensor[2] && sensor[3]){ //x001x
 			  Right = 1;
 			  Go = 0;
 		  }
