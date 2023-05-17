@@ -19,18 +19,28 @@
 
 https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4e554592-803c-4734-b3ce-b4891879893f
 
-### 5/16 :
+### 5/15 :
 
 * 更改為五個感測器(讓銳角是使用最外面的感測器做偵測 -> 預防110 011的方向問題)
 * 110 011 的情況改成先往一個方向轉 假如方向錯 會再轉回去
 
 https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4f15-b2d7-5c87b6f7be8a
 
+
+### 5/16 : 
+* 遇到問題:GPIO 無法給值
+
+
+
 ### 問題 :
 
 * 當感測器為110 or 011時 會發生兩種反向的情況 
 
   例如 : 可能在直角轉彎時會遇到110 而這時是要右轉 但是在銳角轉彎時也會遇到110 而這時是要左轉 會起衝突
+  
+* GPIO 無法給值
+
+  重新創建Quartus II project 可暫時解決問題 但重開機 問題一樣
 
 ### ERROR
 
