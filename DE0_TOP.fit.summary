@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu May 18 00:47:26 2023
+Fitter Status : Successful - Thu May 18 01:05:12 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : DE0_TOP
 Top-level Entity Name : DE0_TOP
 Family : Cyclone III
 Device : EP3C16F484C6
 Timing Models : Final
-Total logic elements : 6,116 / 15,408 ( 40 % )
-    Total combinational functions : 4,938 / 15,408 ( 32 % )
+Total logic elements : 6,117 / 15,408 ( 40 % )
+    Total combinational functions : 4,939 / 15,408 ( 32 % )
     Dedicated logic registers : 4,131 / 15,408 ( 27 % )
 Total registers : 4199
 Total pins : 252 / 347 ( 73 % )
