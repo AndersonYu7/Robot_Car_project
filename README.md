@@ -16,6 +16,7 @@
 * 感測器在車上測試
 * 馬達運轉測試
 * 簡單跑循線
+* 遇到問題：L298N 只能正轉 不能反轉
 
 https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4e554592-803c-4734-b3ce-b4891879893f
 
@@ -41,8 +42,6 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 * GPIO 無法給值
 
   重新創建Quartus II project 可暫時解決問題 但重開機 問題一樣
-
-### ERROR
 
 * 拔除連接線 程式在某個地方會卡住 
 
