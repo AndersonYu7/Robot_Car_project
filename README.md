@@ -57,5 +57,3 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 * L298N 只能正轉 不能反轉
 
   可能原因 : 電壓不足
-
-  解決 : 問題已消失
