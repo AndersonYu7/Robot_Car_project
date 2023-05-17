@@ -31,6 +31,11 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 ### 5/16 : 
 * 遇到問題:GPIO 無法給值
 
+### 5/17 : 
+* 解決GPIO問題
+* 更改感測器位置
+* 重新測試車子
+
 
 
 ### 問題 :
@@ -42,6 +47,8 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 * GPIO 無法給值
 
   重新創建Quartus II project 可暫時解決問題 但重開機 問題一樣
+  
+  解決 : 發現是L298N IN的線接觸不良 且GPIO0_D[3] 沒有輸出
 
 * 拔除連接線 程式在某個地方會卡住 
 
@@ -51,4 +58,4 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 
   可能原因 : 電壓不足
 
-  解決 : 
+  解決 : 問題已消失
