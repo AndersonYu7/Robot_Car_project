@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "czh.czh-verilog-snippet",
+        "teros-technology.teroshdl",
+        "niosii.nios-ii",
+        "ms-vscode.cpptools",
+        "hyeon.c-math-viewer",
+        "jeff-hykin.better-cpp-syntax",
+        "ms-vscode.cpptools-extension-pack",
+        "hars.cppsnippets"
+    ]
+}

@@ -1,0 +1,24 @@
+/* 方法1: button測試讀值，使用data register */
+
+#include <stdio.h>  /* 系統標準輸出入函示庫 */
+#include <system.h> /* 系統函示庫 */
+#include <io.h>     /* 系統I/O函示庫*/
+#include <unistd.h> /* 宣告usleep函數 */
+
+int main()
+{
+  int led,bt;
+  printf("Button test 1:use data register to detect.\n");
+  led = 1;  while(1){
+      bt=IORD(BUTTON_BASE, 0); /* 讀取button data暫存器 */
+      if((bt&0x04) == 0){      /* 判斷button[3]按鈕 是否按下*/
+          led = led << 1;      /* LED左移 */
+          if(led > 0x100){     /* 檢查邊界 */
+              led = 0x01;
+          }
+      }
+      IOWR(LED_BASE, 0, led); /* 輸出至LED顯示 */
+      usleep(11000);
+  }
+  return 0;
+}

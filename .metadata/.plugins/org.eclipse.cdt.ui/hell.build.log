@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project hell ****
+
+make all 
+Info: Building ../hell_bsp/
+make --no-print-directory -C ../hell_bsp/
+[BSP build complete]
+[hell build complete]
+
+**** Build Finished ****

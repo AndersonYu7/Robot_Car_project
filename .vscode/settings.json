@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.gazebo": "xml",
+        "io.h": "c",
+        "system.h": "c"
+    },
+}
