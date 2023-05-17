@@ -3,8 +3,8 @@ JedecChain;
 	FileRevision(JESD32A);
 	DefaultMfr(6E);
 
-	P ActionCode(Ign)
-		Device PartName(EP3C16F484) MfrSpec(OpMask(0) FullPath("C:/test/final/DE0_TOP.sof"));
+	P ActionCode(Cfg)
+		Device PartName(EP3C16F484) Path("C:/Users/User/Desktop/TKU/verilog_test/") File("DE0_TOP.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

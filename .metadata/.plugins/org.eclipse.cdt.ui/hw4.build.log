@@ -1,0 +1,24 @@
+
+**** Build of configuration Nios II for project hw4 ****
+
+make all 
+Info: Building ../hw4_bsp/
+make --no-print-directory -C ../hw4_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../hw4_bsp//HAL/inc -I../hw4_bsp/ -I../hw4_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:13: warning: unused variable 'sw'
+hello_world.c:13: warning: unused variable 'i'
+hello_world.c: In function 'motor_ctrl':
+hello_world.c:39: warning: implicit declaration of function 'abs'
+Info: Linking hw4.elf
+nios2-elf-g++  -T'../hw4_bsp//linker.x' -msys-crt0='../hw4_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hw4_bsp/   -Wl,-Map=hw4.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o hw4.elf obj/default/hello_world.o -lm 
+nios2-elf-insert hw4.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE0Qsys --quartus_project_dir "E:/SourceCode/verilog_test/Qsys" --sopcinfo E:/SourceCode/verilog_test/Qsys/DE0Qsys.sopcinfo
+Info: (hw4.elf) 61 KBytes program size (code + initialized data).
+Info:           8123 KBytes free for stack + heap.
+Info: Creating hw4.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source hw4.elf >hw4.objdump
+[hw4 build complete]
+
+**** Build Finished ****
