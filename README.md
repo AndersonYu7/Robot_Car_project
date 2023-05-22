@@ -39,6 +39,8 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 ### 5/22 : 
 * 最旁邊兩側感測器會有偵測不到的情況導致大轉彎轉彎不順利
 
+https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/17e7e7fa-2285-43d6-8fc8-a2334c21d9c7
+
 
 
 ### 問題 :
