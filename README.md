@@ -36,6 +36,9 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 * 更改感測器位置
 * 重新測試車子
 
+### 5/22 : 
+* 最旁邊兩側感測器會有偵測不到的情況導致大轉彎轉彎不順利
+
 
 
 ### 問題 :
