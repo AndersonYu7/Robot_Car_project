@@ -18,14 +18,14 @@
 * 簡單跑循線
 * 遇到問題：L298N 只能正轉 不能反轉
 
-https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4e554592-803c-4734-b3ce-b4891879893f
+https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/fbe707a0-541e-4394-98ac-dddb3c9f1208
 
 ### 5/15 :
 
 * 更改為五個感測器(讓銳角是使用最外面的感測器做偵測 -> 預防110 011的方向問題)
 * 110 011 的情況改成先往一個方向轉 假如方向錯 會再轉回去
 
-https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4f15-b2d7-5c87b6f7be8a
+https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/ba05477a-bc22-4481-a021-06c273242789
 
 
 ### 5/16 : 
@@ -39,7 +39,7 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 ### 5/22 : 
 * 最旁邊兩側感測器會有偵測不到的情況導致大轉彎轉彎不順利
 
-https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/17e7e7fa-2285-43d6-8fc8-a2334c21d9c7
+https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/53e20605-5549-4d3f-b4c5-fa045188e179
 
 ### 5/25 : 
 * 驗收 : 最終成績 53.35秒
