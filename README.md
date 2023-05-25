@@ -62,6 +62,8 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/98c2480d-6055-4
 
 * 拔除連接線 程式在某個地方會卡住 
 
+  原因 : printf太多 導致buffer空間不足 
+
   解決 : printf 太多 全部註解刪除
 
 * L298N 只能正轉 不能反轉
