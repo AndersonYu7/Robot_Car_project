@@ -42,7 +42,7 @@ https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/4ca5a3cb-f018-4
 https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/17e7e7fa-2285-43d6-8fc8-a2334c21d9c7
 
 ### 5/25 : 
-* 驗收 : 最終成績 53.85秒
+* 驗收 : 最終成績 53.35秒
 
 https://github.com/AndersonYu7/Robot_Car_project/assets/95768254/98c2480d-6055-4eae-9cd2-609fc6d3bc1c
 
